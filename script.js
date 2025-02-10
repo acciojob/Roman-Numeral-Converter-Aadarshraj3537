@@ -27,6 +27,9 @@ function convertToRoman(num) {
   return roman;
 }
 
+// Example usage:
+console.log(convertToRoman(1987)); // Output: MCMLXXXVII
+
 
 
 
