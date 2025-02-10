@@ -1,32 +1,57 @@
-function convertToRoman(num) {
-    const arr = [
-        ['M', 1000],
-        ['CM', 900],
-        ['D', 500],
-        ['CD', 400],
-        ['C', 100],
-        ['XC', 90],
-        ['L', 50],
-        ['XL', 40],
-        ['X', 10],
-        ['IX', 9],
-        ['V', 5],
-        ['IV', 4],
-        ['I', 1]
-    ];
+function convert To Roman(num) {
 
-    let roman = '';
+const arr = [
 
-    for (let [symbol, value] of arr) {
-        while (num >= value) {
-            roman += symbol;
-            num -= value;
-        }
-    }
+['A,1000],
 
-    return roman;
+['CM', 9001,
+
+[D; 500],
+
+["CD", 400],
+
+['c', 100],
+
+['xc; ৭০],
+
+['L, 50],
+
+[X,40],
+
+['x, 10],
+
+[x, 91
+
+[V, 5].
+
+[TV, 4],
+
+[21]
+
+]
+
+T
+
++
+
+A
+
+let roman";
+
+for(let 0:Karr.length;i++){
+
+let symbol = arr[][0];
+
+let value = arr[i
+
+while(num>=value){
+
+num = eux-value;
+
+Tomor roman+ symbol;
+
+return roman
+
 }
-
-
 
 
