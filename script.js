@@ -5,15 +5,18 @@ function convertToRoman(num) {
         ['X', 10], ['IX', 9], ['V', 5], ['IV', 4], ['I', 1]
     ];
     
-    let result = "";
-    
+    let result = '';
     for (let [symbol, value] of romanNumerals) {
         while (num >= value) {
             result += symbol;
             num -= value;
         }
     }
-    
     return result;
 }
+
+// Example usage:
+console.log(convertToRoman(14));  // Output: XIV
+console.log(convertToRoman(798)); // Output: DCCXCVIII
+
 
