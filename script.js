@@ -1,57 +1,23 @@
-function convert To Roman(num) {
+let roman = "";
 
-const arr = [
+for (let i = 0; i < arr.length; i++) {
 
-['A,1000],
+while (num >= arr[i][1]) {
 
-['CM', 9001,
+roman += arr[i][0];
 
-[D; 500],
+num = arr[1][1];
 
-["CD", 400],
-
-['c', 100],
-
-['xc; ৭০],
-
-['L, 50],
-
-[X,40],
-
-['x, 10],
-
-[x, 91
-
-[V, 5].
-
-[TV, 4],
-
-[21]
-
-]
-
-T
-
-+
-
-A
-
-let roman";
-
-for(let 0:Karr.length;i++){
-
-let symbol = arr[][0];
-
-let value = arr[i
-
-while(num>=value){
-
-num = eux-value;
-
-Tomor roman+ symbol;
-
-return roman
+I
 
 }
+
+}
+
+return roman;
+
+// You can test your code by running the above function
+
+// console.log(convertToRoman (36));
 
 
